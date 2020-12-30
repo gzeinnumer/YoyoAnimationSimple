@@ -23,7 +23,7 @@ Make this class
 
 - `AnimFunction.java`
 
-(See Code)[https://github.com/gzeinnumer/YoyoAnimationSimple/blob/master/lib/src/main/java/com/gzeinnumer/yoyoanimsimple/utils/AnimFunction.java]
+[See Code](https://github.com/gzeinnumer/YoyoAnimationSimple/blob/master/lib/src/main/java/com/gzeinnumer/yoyoanimsimple/utils/AnimFunction.java)
 
 ## USE
 
