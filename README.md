@@ -22,7 +22,8 @@ implementation 'com.daimajia.androidanimations:library:2.3@aar'
 Make this class
 
 - `AnimFunction.java`
-[See Code][https://github.com/gzeinnumer/YoyoAnimationSimple/blob/master/lib/src/main/java/com/gzeinnumer/yoyoanimsimple/utils/AnimFunction.java]
+
+(See Code)[https://github.com/gzeinnumer/YoyoAnimationSimple/blob/master/lib/src/main/java/com/gzeinnumer/yoyoanimsimple/utils/AnimFunction.java]
 
 ## USE
 
