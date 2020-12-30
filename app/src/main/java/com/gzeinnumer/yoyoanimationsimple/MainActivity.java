@@ -6,7 +6,9 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.Button;
+import android.widget.LinearLayout;
 
+import com.daimajia.androidanimations.library.Techniques;
 import com.gzeinnumer.yoyoanimsimple.utils.AnimFunction;
 
 public class MainActivity extends AppCompatActivity {
@@ -16,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ConstraintLayout parent = findViewById(R.id.parent);
+        LinearLayout parent = findViewById(R.id.parent);
         Button button = findViewById(R.id.btn);
 
         parent.setOnClickListener(v -> {

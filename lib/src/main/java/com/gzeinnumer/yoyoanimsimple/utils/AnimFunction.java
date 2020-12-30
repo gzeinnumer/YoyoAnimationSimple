@@ -13,7 +13,7 @@ public class AnimFunction {
 
     public static void animationIn(View targetView) {
         Techniques techniques = Techniques.SlideInDown;
-        long duration = 400;
+        long duration = 500;
 
         targetView.setVisibility(View.VISIBLE);
         YoYo.with(techniques).duration(duration).playOn(targetView);
@@ -21,7 +21,7 @@ public class AnimFunction {
 
     public static void animationOut(View targetView) {
         Techniques techniques = Techniques.SlideOutDown;
-        long duration = 400;
+        long duration = 500;
 
         YoYo.with(techniques).duration(duration).playOn(targetView);
         new Handler().postDelayed(() -> targetView.setVisibility(View.GONE), duration);
